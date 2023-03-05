@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/bootstrap.css">
+    <link rel="stylesheet" href="/estilos/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="/js/app.js"></script>
+    <div id="root">
+        <div class="navbar_piola ">
+            <div class="navbar_content__piola div_estilo">
+                <div>
+                    <a id="me" href="#" onclick="show('quien_soy')">
+                        <span class="btn btn-outline-dark ">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"></path><path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"></path></svg>
+                            <span>Yo</span>
+                        </span>
+                    </a>
+                    <a id="exp" href="#" onclick="show('experiencia')">
+                        <span class="btn btn-outline-dark">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z"></path></svg>
+                            <span>Experiencia</span>
+                        </span>
+                    </a>
+                    <a id="contact" href="#" onclick="show('contacto')">
+                        <span class="btn btn-outline-dark">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z"></path></svg>
+                            <span>Contacto</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="navbar_social__EROgo">
+                    <a class="btn btn-outline-dark css-16mdydf" href="https://github.com/" target="_blank">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" aria-hidden="true" focusable="false" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+                    </a>
+                    <a class="btn btn-outline-info css-16mdydf" href="https://twitter.com/" target="_blank">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" aria-hidden="true" focusable="false" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path></svg>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="container_a container_pos">
+            <div class="container_container css-k008qs">
+                <div class="container_mid div_estilo">
+                    <div id="quien_soy">
+                        <div class="css-k008qs">
+                            <div>
+                                <div>
+                                    <span><img src="https://avatars.githubusercontent.com/u/44925968?v=4" id="foto" class="avatar_img"></span>
+                                </div>
+                                <div class="hire">
+                                    <span class="disp">Disponible para contratar</span>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <h2><span id="name" class="">Nombre</span></h2>
+                                <p><span id="inf1" class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, cum accusantium dignissimos, iusto recusandae temporibus corporis excepturi corrupti expedita nihil ab, assumenda a quis voluptatum harum veritatis. Vero, libero quam.</span></p>
+                                <p><span id="inf2" class=""></span></p>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div>
+                            <h2>Quien soy?</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nobis, ut at, quo provident reiciendis eum praesentium sapiente dolor, soluta a. Possimus, obcaecati veritatis! Sequi, delectus. Consectetur quam nihil delectus!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, soluta! Laboriosam, eos, quaerat esse totam ex hic ipsum neque, natus fuga deserunt obcaecati maxime accusamus? Architecto voluptatem quo minus nam.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed tempore deserunt, vitae delectus nobis necessitatibus repudiandae assumenda, optio ab facere inventore libero excepturi possimus officia ducimus tenetur. Vitae, harum voluptatem!</p>
+                        </div>
+                    </div>
+                    <div id="experiencia">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eum saepe ad? Illo reiciendis natus voluptatibus corrupti magni quisquam molestiae ad quas architecto modi fugiat consequatur inventore tempore, dolorum sint!</p>
+                    </div>
+                    <div id="contacto" class="formulario">
+                        <form method="get">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="nombre" placeholder="Ingrese su nombre"/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="Apellido" placeholder="Ingrese su apellido"/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" name="email" placeholder="Ingrese su email" required/>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary" type="submit">Submit form</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="sidebar_sidebar">
+                    <div class="sidebar_item div_estilo">
+                        <h2>Sobre mi</h2>
+                        <div class="space_mid">
+                            <p>Edad</p>
+                            <p>21</p>
+                        </div>
+                        <div class="space_mid">
+                            <p>Cumpleaños</p>
+                            <p>20/12</p>
+                        </div>
+                        <div class="space_mid">
+                            <p>País</p>
+                            <p>Argentina</p>
+                        </div>
+                        <div class="space_mid">
+                            <p>Estado</p>
+                            <p>Santa Fe</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
