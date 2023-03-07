@@ -160,7 +160,26 @@ padding: 1px;
   background: #fed7e2;
 }
 .formulario{
-  width: 35%;
+  width: 60%;
+  padding: 5px;
+}
+.div_flex{
+  display: flex;
+}
+.img-exp{
+  border-radius: 30px;
+  width: 180px;
+  height: 100px;
+
+}
+.band_exp{
+  text-align: center;
+}
+.grid{
+  display: grid;
+  row-gap: 2.5rem;
+  column-gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 }
 @media only screen and (max-width: 725px){
   .sidebar_sidebar {
@@ -539,7 +558,7 @@ blockquote {
 }
 
 b,
-strong {
+.strong {
   font-weight: bolder;
 }
 
