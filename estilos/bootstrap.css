@@ -4,7 +4,7 @@ body{
   color: rgb(0, 0, 0);
   transition-property: background-color;
   image-rendering: pixelated;
-  background: url("/background.png") 0% 0% / cover no-repeat fixed;
+  background: url("./background.jpg") 0% 0% / cover no-repeat fixed;
   background-repeat: no-repeat;
 }
 body, blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
@@ -504,11 +504,6 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: 1rem;
-}
-
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
 }
 
 abbr[title] {
